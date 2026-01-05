@@ -21,6 +21,9 @@ export default defineNuxtConfig({
     },
     ssr: {
       noExternal: ['@nuxt/ui']
+    },
+    build: {
+      sourcemap: false
     }
   },
   build: {
