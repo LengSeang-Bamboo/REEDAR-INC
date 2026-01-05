@@ -1,0 +1,83 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+/* @theme is a Tailwind CSS v4 directive */
+/* stylelint-disable-next-line at-rule-no-unknown */
+@theme {
+  --font-sans: "Roboto", sans-serif;
+  --font-roboto: "Roboto", sans-serif; 
+  --font-armata: "Armata", sans-serif;  
+
+  /* Primary color */
+  --color-reePrimary: #fff;
+
+  --color-reeGray-50:  #d8d4d3;
+  --color-reeGray-100: #bab6b6;
+  --color-reeGray-200: #9d9999;
+  --color-reeGray-300: #817d7d;
+  --color-reeGray-400: #656263;
+  --color-reeGray-500: #333031; 
+  --color-reeGray-600: #404040;
+  --color-reeGray-700: #262626;
+  --color-reeGray-800: #171717;
+  
+  --color-reeLGray: #e7e7e7;
+  --color-reeBlack: #0a0a0a;
+  --color-reeRed: #ff0000;
+  --color-reeLight: #f8f9faff;
+  /* Gray palet */
+  --color-bright-snow: #f8f9faff;
+  --color-platinum: #e9ecefff;
+  --color-alabaster-grey: #dee2e6ff;
+  --color-pale-slate: #ced4daff;
+  --color-pale-slate-2: #adb5bdff;
+  --color-slate-grey: #6c757dff;
+  --color-iron-grey: #495057ff;
+  --color-gunmetal: #343a40ff;
+  --color-carbon-black: #212529ff;
+
+  --color-reeText-gray: #817d7d;
+  --color-reeText-black: #0a0a0a;
+
+
+}
+:root {
+  --ui-primary: var(--color-reePrimary);    
+  --ui-secondary: var(--color-reeBlack);
+  --ui-success: var(--ui-color-success-500);
+  --ui-info: var(--ui-color-info-500);
+  --ui-warning: var(--ui-color-warning-500);
+  --ui-error: var(--ui-color-error-500);
+
+  --ui-text-dimmed: var(--ui-color-neutral-400);
+  --ui-text-muted: var(--ui-color-neutral-500);
+  --ui-text-toned: var(--ui-color-neutral-600);
+  --ui-text: var(--ui-color-neutral-700);
+  --ui-text-highlighted: var(--ui-color-neutral-900);
+  --ui-text-inverted: var(--color-white);
+  
+  --ui-bg: rgba(255, 255, 255, 0.8);
+  --ui-bg-muted: var(--ui-color-neutral-50);
+  --ui-bg-elevated: var(--ui-color-neutral-100);
+  --ui-bg-accented: var(--ui-color-neutral-200);
+  --ui-bg-inverted: var(--ui-color-neutral-900);
+
+  --ui-border: var(--ui-color-neutral-200);
+  --ui-border-muted: var(--ui-color-neutral-200);
+  --ui-border-accented: var(--ui-color-neutral-300);
+  --ui-border-inverted: var(--ui-color-neutral-900);
+  
+  /* Navbar colors */
+  --navbar-bg: var(--color-reeGray-500);
+  --navbar-text: var(--color-reePrimary);
+  --navbar-border: var(--color-reeGray-400);
+}
+
+/* .dark {
+  --ui-primary: black;
+  --ui-secondary: var(--ui-color-secondary-400);
+  --ui-success: var(--ui-color-success-400);
+  --ui-info: var(--ui-color-info-400);
+  --ui-warning: var(--ui-color-warning-400);
+  --ui-error: var(--ui-color-error-400);
+}      */
