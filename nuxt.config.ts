@@ -6,6 +6,13 @@ export default defineNuxtConfig({
   css: [
     '~/assets/css/main.css'
   ],
+  app:{
+    head: {
+      link: [
+         {rel : 'icon' , href: '/favicon.png'}
+      ]
+    }
+  },
   devServer: {
     port: 4000,
   },

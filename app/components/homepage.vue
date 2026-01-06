@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import bgimg from "../assets/images/porsche-taycan-4s-6000x3374-23253.jpeg"
+import bgimg from "~/assets/images/porsche-taycan-4s-6000x3374-23253.jpeg"
 import RentalForm from "./form/RentalForm.vue";
 
 </script>

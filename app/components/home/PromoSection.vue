@@ -21,7 +21,7 @@ const partners = [
       </div>
 
       <!-- Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto md:h-[600px]">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-6 h-auto md:h-150">
         <!-- Left Column -->
         <div class="md:col-span-4 flex flex-col gap-6 h-full">
           <!-- Top Card -->
@@ -40,7 +40,7 @@ const partners = [
                 trailing-icon="i-heroicons-arrow-right" 
                 class="mt-4 text-black" 
               />
-            </div>
+            </div>``
           </div>
           
           <!-- Bottom Card -->
@@ -59,7 +59,7 @@ const partners = [
         <div class="md:col-span-8 h-full">
           <div class="relative h-full bg-gray-100 rounded-3xl overflow-hidden group cursor-pointer">
             <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1503376763036-066120622c74?q=80&w=1000&auto=format&fit=crop')] bg-cover bg-center group-hover:scale-105 transition-transform duration-700"></div>
-            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+            <div class="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent"></div>
             <div class="absolute bottom-0 left-0 p-10 text-white max-w-xl">
               <h3 class="text-3xl md:text-5xl font-bold leading-tight mb-4">Beyond accommodation, creating memories of a lifetime</h3>
             </div>
